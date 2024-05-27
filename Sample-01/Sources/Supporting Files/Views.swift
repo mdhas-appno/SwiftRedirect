@@ -6,23 +6,30 @@ struct HeroView: View {
     var body: some View {
     #if os(iOS)
         Image("Auth0")
-            .resizable()
             .aspectRatio(contentMode: .fit)
-            .frame(width: 25, height: 28, alignment: .center)
+            .frame(width: 120, height: 120, alignment: .center)
             .padding(.top, 8)
         VStack(alignment: .leading, spacing: -32) {
             Text("Swift")
                 .tracking(self.tracking)
                 .foregroundStyle(
                     .linearGradient(
-                      colors: [Color("Orange"), Color("Pink")],
+                      colors: [Color("Orange"), Color("SkyBlue")],
                       startPoint: .topLeading,
                       endPoint: .bottomTrailing
                     ))
-            Text("Sample")
+            Text("Redirect")
                 .tracking(self.tracking)
+                .foregroundStyle(
+                    .linearGradient(
+                      colors: [Color("Orange"), Color("SkyBlue")],
+                      startPoint: .topLeading,
+                      endPoint: .bottomTrailing
+                    ))
             Text("App")
                 .tracking(self.tracking)
+                .font(.custom("SpaceGrotesk-Medium", size: 50))
+
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .font(.custom("SpaceGrotesk-Medium", size: 80))
