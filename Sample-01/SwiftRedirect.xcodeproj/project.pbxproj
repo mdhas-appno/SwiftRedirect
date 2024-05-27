@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -81,7 +81,7 @@
 		5C6537232772F5D90035759D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		5C6537262772F5EE0035759D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5C78D9C027740963000B4B71 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
-		5CA7AC192B893232008EBDCF /* SwiftSample (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftSample (iOS).entitlements"; sourceTree = "<group>"; };
+		5CA7AC192B893232008EBDCF /* SwiftRedirect (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftRedirect (iOS).entitlements"; sourceTree = "<group>"; };
 		5CD3A4492784E54E00B67D88 /* SwiftRedirectTests (iOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftRedirectTests (iOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD3A4572784E5BC00B67D88 /* SwiftRedirectTests (macOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftRedirectTests (macOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD3A46A27850B9000B67D88 /* HeroViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewTests.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		5CDD8862277102DC00052307 /* SwiftRedirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRedirect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDD8864277102DC00052307 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		692217542C03D9BA0055FCE9 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
-		692217572C04BC9F0055FCE9 /* SwiftSample (iOS)Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftSample (iOS)Debug.entitlements"; sourceTree = "<group>"; };
+		692217572C04BC9F0055FCE9 /* SwiftRedirect (iOS)Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftRedirect (iOS)Debug.entitlements"; sourceTree = "<group>"; };
 		D569776C278D97D3008E6498 /* SpaceGrotesk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpaceGrotesk.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,7 +162,7 @@
 		5C65372C2773FCFA0035759D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5CA7AC192B893232008EBDCF /* SwiftSample (iOS).entitlements */,
+				5CA7AC192B893232008EBDCF /* SwiftRedirect (iOS).entitlements */,
 				D569776C278D97D3008E6498 /* SpaceGrotesk.ttf */,
 			);
 			path = iOS;
@@ -229,7 +229,7 @@
 		5CDD884F277102DA00052307 = {
 			isa = PBXGroup;
 			children = (
-				692217572C04BC9F0055FCE9 /* SwiftSample (iOS)Debug.entitlements */,
+				692217572C04BC9F0055FCE9 /* SwiftRedirect (iOS)Debug.entitlements */,
 				5C5DBE8A277217D800E19935 /* Sources */,
 				5CD3A4522784E56300B67D88 /* Tests */,
 				5CD3A48B2788DFCD00B67D88 /* UITests */,
@@ -394,7 +394,7 @@
 				};
 			};
 			buildConfigurationList = 5CDD8853277102DA00052307 /* Build configuration list for PBXProject "SwiftRedirect" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -817,14 +817,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "SwiftSample (iOS)Debug.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SwiftRedirect (iOS)Debug.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 341;
 				DEVELOPMENT_TEAM = ZQ5TX3874W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftSample--iOS--Info.plist";
+				INFOPLIST_FILE = "SwiftRedirect--iOS--Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Swift Redirect";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -855,14 +855,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "SwiftSample (iOS).entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SwiftRedirect (iOS).entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 341;
 				DEVELOPMENT_TEAM = ZQ5TX3874W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftSample--iOS--Info.plist";
+				INFOPLIST_FILE = "SwiftRedirect--iOS--Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Swift Redirect";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

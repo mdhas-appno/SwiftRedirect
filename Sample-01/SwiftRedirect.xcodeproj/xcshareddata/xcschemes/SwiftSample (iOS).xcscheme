@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CDD885B277102DC00052307"
-               BuildableName = "SwiftSample.app"
-               BlueprintName = "SwiftSample (iOS)"
+               BuildableName = "SwiftRedirect.app"
+               BlueprintName = "SwiftRedirect (iOS)"
                ReferencedContainer = "container:SwiftRedirect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,8 +31,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CD3A4892788DFCD00B67D88"
-            BuildableName = "SwiftSampleUITests.xctest"
-            BlueprintName = "SwiftSampleUITests"
+            BuildableName = "SwiftRedirectUITests.xctest"
+            BlueprintName = "SwiftRedirectUITests"
             ReferencedContainer = "container:SwiftRedirect.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -54,8 +54,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CD3A4482784E54E00B67D88"
-               BuildableName = "SwiftSampleTests (iOS).xctest"
-               BlueprintName = "SwiftSampleTests (iOS)"
+               BuildableName = "SwiftRedirectTests (iOS).xctest"
+               BlueprintName = "SwiftRedirectTests (iOS)"
                ReferencedContainer = "container:SwiftRedirect.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -64,8 +64,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CD3A4892788DFCD00B67D88"
-               BuildableName = "SwiftSampleUITests.xctest"
-               BlueprintName = "SwiftSampleUITests"
+               BuildableName = "SwiftRedirectUITests.xctest"
+               BlueprintName = "SwiftRedirectUITests"
                ReferencedContainer = "container:SwiftRedirect.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -86,8 +86,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CDD885B277102DC00052307"
-            BuildableName = "SwiftSample.app"
-            BlueprintName = "SwiftSample (iOS)"
+            BuildableName = "SwiftRedirect.app"
+            BlueprintName = "SwiftRedirect (iOS)"
             ReferencedContainer = "container:SwiftRedirect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -103,8 +103,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CDD885B277102DC00052307"
-            BuildableName = "SwiftSample.app"
-            BlueprintName = "SwiftSample (iOS)"
+            BuildableName = "SwiftRedirect.app"
+            BlueprintName = "SwiftRedirect (iOS)"
             ReferencedContainer = "container:SwiftRedirect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
