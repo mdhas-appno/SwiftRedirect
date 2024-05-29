@@ -1,6 +1,6 @@
 import XCTest
 import ViewInspector
-@testable import SwiftSample
+@testable import SwiftRedirect
 
 class HeroViewTests: XCTestCase {
     private let sut = HeroView()
@@ -9,14 +9,14 @@ class HeroViewTests: XCTestCase {
         let logo = try self.sut.inspect().image(0)
         XCTAssertEqual(try logo.actualImage().name(), "Auth0")
         XCTAssertEqual(try logo.aspectRatio().contentMode, .fit)
-        XCTAssertEqual(try logo.fixedWidth(), 25)
-        XCTAssertEqual(try logo.fixedHeight(), 28)
+        XCTAssertEqual(try logo.fixedWidth(), 120)
+        XCTAssertEqual(try logo.fixedHeight(), 120)
     }
 
     func testLogoUsesFixedSize() throws {
         let logo = try self.sut.inspect().image(0)
-        XCTAssertEqual(try logo.fixedWidth(), 25)
-        XCTAssertEqual(try logo.fixedHeight(), 28)
+        XCTAssertEqual(try logo.fixedWidth(), 120)
+        XCTAssertEqual(try logo.fixedHeight(), 120)
         XCTAssertEqual(try logo.aspectRatio().contentMode, .fit)
     }
 
@@ -24,15 +24,14 @@ class HeroViewTests: XCTestCase {
         let textViews = try self.sut.inspect().vStack(1).findAll(ViewType.Text.self)
         XCTAssertEqual(textViews.count, 3)
         XCTAssertEqual(try textViews[0].string(), "Swift")
-        XCTAssertEqual(try textViews[1].string(), "Sample")
+        XCTAssertEqual(try textViews[1].string(), "Redirect")
         XCTAssertEqual(try textViews[2].string(), "App")
     }
 
-    func testTextUsesCustomFont() throws {
-        for text in try self.sut.inspect().vStack(1).findAll(ViewType.Text.self) {
-            XCTAssertEqual(try text.attributes().font().name(), "SpaceGrotesk-Medium")
-            XCTAssertEqual(try text.attributes().font().size(), 80)
-        }
+    func testTextUsesCustomFont() throws {        
+        XCTAssertEqual(try self.sut.inspect().vStack(1).find(text: "Swift").attributes().font().size(), 80)
+        XCTAssertEqual(try self.sut.inspect().vStack(1).find(text: "Redirect").attributes().font().size(), 80)
+        XCTAssertEqual(try self.sut.inspect().vStack(1).find(text: "App").attributes().font().size(), 50)
     }
 
     func testTextUsesFlexibleSize() throws {

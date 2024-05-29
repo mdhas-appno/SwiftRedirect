@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Tests</key>
+	<array>
+		<dict>
+			<key>Architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>Scheme</key>
+			<string>SwiftSample (iOS)</string>
+			<key>isDefault</key>
+			<true/>
+			<key>xctestrun</key>
+			<string>Tests/0/SwiftSample (iOS).xctestrun</string>
+		</dict>
+	</array>
+</dict>
+</plist>

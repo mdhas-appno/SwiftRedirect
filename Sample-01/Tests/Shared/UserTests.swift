@@ -1,5 +1,5 @@
 import XCTest
-@testable import SwiftSample
+@testable import SwiftRedirect
 
 extension User: Equatable {
     public static func == (lhs: User, rhs: User) -> Bool {

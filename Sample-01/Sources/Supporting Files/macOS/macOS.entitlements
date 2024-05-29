@@ -4,7 +4,8 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>webcredentials:YOUR_AUTH0_DOMAIN</string>
+		<string>webcredentials:us-gpa-production.pfizer.auth0.com?mode=developer</string>
+		<string>applinks:us-gpa.production.pfizer.auth0.com?mode=developer</string>
 	</array>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>

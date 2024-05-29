@@ -1,7 +1,7 @@
 import SwiftUI
 import XCTest
 import ViewInspector
-@testable import SwiftSample
+@testable import SwiftRedirect
 
 class ProfileViewTests: XCTestCase {
     func testHasHeader() throws {

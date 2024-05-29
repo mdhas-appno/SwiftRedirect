@@ -1,6 +1,6 @@
 import XCTest
 import ViewInspector
-@testable import SwiftSample
+@testable import SwiftRedirect
 
 class HeroViewTests: XCTestCase {
     private let sut = HeroView()

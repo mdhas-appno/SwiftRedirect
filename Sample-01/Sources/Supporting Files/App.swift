@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct SwiftSampleApp: App {
+struct SwiftRedirectApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()

@@ -1,6 +1,6 @@
 import XCTest
 import ViewInspector
-@testable import SwiftSample
+@testable import SwiftRedirect
 
 class ProfileHeaderTests: XCTestCase {
     private let sut = ProfileHeader(picture: "")

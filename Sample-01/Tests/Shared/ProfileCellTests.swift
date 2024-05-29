@@ -1,6 +1,6 @@
 import XCTest
 import ViewInspector
-@testable import SwiftSample
+@testable import SwiftRedirect
 
 class ProfileCellTests: XCTestCase {
     private var sut: ProfileCell!

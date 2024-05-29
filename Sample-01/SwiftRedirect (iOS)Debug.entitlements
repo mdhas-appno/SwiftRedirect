@@ -4,8 +4,8 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>webcredentials:us-gpa-production.pfizer.auth0.com?mode=developer</string>
-		<string>applinks:us-gpa-production.pfizer.auth0.com?mode=developer</string>
+		<string>webcredentials:dev-agtc0x7t3253t84z.us.auth0.com</string>
+		<string>applinks:dev-agtc0x7t3253t84z.us.auth0.com</string>
 	</array>
 </dict>
 </plist>
