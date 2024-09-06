@@ -26,5 +26,6 @@ extension User {
         self.emailVerified      = String(describing: emailVerified)
         self.picture            = picture
         self.updatedAt          = updatedAt
+        
     }
 }

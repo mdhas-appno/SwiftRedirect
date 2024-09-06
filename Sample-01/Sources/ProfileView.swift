@@ -9,7 +9,7 @@ struct ProfileView: View {
                 ProfileCell(key: "ID", value: user.id)
                 ProfileCell(key: "Name", value: user.name)
                 ProfileCell(key: "Email", value: user.email)
-                ProfileCell(key: "Email verified?", value: user.emailVerified)
+                ProfileCell(key: "Email verification?", value: user.emailVerified)
                 ProfileCell(key: "Updated at", value: user.updatedAt)
             }
         }
